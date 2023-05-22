@@ -13,6 +13,9 @@ copilot.setup {
       dismiss = "<c-h>",
     },
   },
+  filetypes = {
+    ["*"] = true,
+  },
 }
 
 local opts = { noremap = true, silent = true }
